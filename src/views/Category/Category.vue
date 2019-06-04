@@ -11,6 +11,9 @@ export default {
 
     }
   },
+  created () {
+    console.log('推荐' + this.$route.path)
+  },
   components: {
 
   }

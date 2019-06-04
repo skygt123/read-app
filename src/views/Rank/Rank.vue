@@ -11,6 +11,9 @@ export default {
 
     }
   },
+  created () {
+    console.log('排行' + this.$route.path)
+  },
   components: {
 
   }
